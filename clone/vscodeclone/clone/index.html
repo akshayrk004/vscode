@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>VScode Akshay</title>
+  </head>
+  <body>
+    <div class="bg-slate-800">
+      <!-- Navbar -->
+
+      <div>
+        <nav class="bg-slate-950">
+          <div class="text-white flex gap-3 h-20 justify-around items-center">
+            <div class="flex items-center gap-3">
+              <img src="download.png" class="h-5 w-5 md:ml-10" /><span
+                class="text-xl font-semibold"
+                >Visual studio code</span
+              >
+
+              <div class="hidden md:flex flex gap-3">
+                <span>Docs</span>
+                <span>Updates</span>
+                <span>Blog</span>
+                <span>API</span>
+                <span>Extensions</span>
+                <span>MCP</span>
+                <span>FAQ</span>
+              </div>
+            </div>
+
+            <div class="flex gap-6 hidden md:flex">
+              <span><i class="fa-regular fa-sun"></i></span>
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+
+              <button
+                class="bg-sky-600 rounded full px-3 py-1 font-semibold hover:bg-sky-700"
+              >
+                Download
+              </button>
+            </div>
+            <div class="sm:flex md:hidden">
+              <i class="fa-solid fa-bars text-white"></i>
+            </div>
+          </div>
+        </nav>
+
+        <!-- page 1 -->
+
+        <div>
+          <div class="relative h-screen">
+            <img
+              src="wall.png"
+              class="h-screen w-full h-screen mix-blend-overlay absolute"
+            />
+            <h1
+              class="md:ml-80 md:mt-30 text-white text-2xl text-5xl/11 md:text-8xl md:font-bold font-semibold absolute text-center"
+            >
+              The open source <br />
+              AI code editor
+            </h1>
+
+            <div
+              class="bg-gray-700 h-40 md:w-100 rounded-lg absolute md:ml-140 md:mt-90 mt-50 ml-11"
+            >
+              <button
+                class="bg-white mx-auto rounded-lg px-12 py-3 flex gap-3 text-black mb-3 hover:border-2 border-sky-600 mt-5"
+              >
+                <i class="fa-brands fa-windows pt-1"></i>
+                <a href="https://code.visualstudio.com/docs/?dv=win64user"
+                  >Download for windows</a
+                >
+              </button>
+
+              <p class="text-xs text-center pt-3 text-white">
+                Web, Insiders edition, or other platforms <br />
+                By using VSCode, you agree to its license and privacy statement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- page 2 -->
+
+      <div>
+        <div
+          class="bg-linear-to-t from-sky-500 to-indigo-500 max-w-5xl mx-auto rounded-md md:mt-11"
+        >
+          <img src="cut1.png" class="p-5" />
+        </div>
+      </div>
+      <!-- 3 cards -->
+      <section class="grid md:grid-cols-3 max-w-5xl w-full mx-auto mt-9">
+        <div class="w-full p-4"><img src="cut3.png" class="rounded-xl" /></div>
+        <div class="w-full p-4">
+          <img src="cut4.png" class="h-full rounded-xl" />
+        </div>
+        <div class="w-full p-4"><img src="cut5.png" class="rounded-xl" /></div>
+      </section>
+      <!-- single card  -->
+      <div
+        class="h-30 w-full bg-linear-to-t from-sky-500 to-indigo-500 md:flex justify-around items-center rounded-md sm:flex-row"
+      >
+        <h1 class="text-white md:text-4xl ml-2 font-semibold text-center">
+          Use AI features in <br />
+          VS Code for free
+        </h1>
+
+        <div class="ml-3">
+          <span
+            class="text-white text-center md:justify-between md:text-2xl text-s"
+            >No trial. No credit card required. Just your GitHub account. <br />
+            <button class="bg-gray-500 md:h-10 w-20 b- rounded-sm">
+              Try free
+            </button></span
+          >
+        </div>
+      </div>
+
+      <!-- page 3 -->
+
+      <div class="md:flex">
+        <div class="ml-8 md:w-120">
+          <h1 class="text-white text-4xl font-semibold">Agent mode</h1>
+          <br />
+          <p class="text-white">
+            Tackle complex, multi-step tasks. Agent mode reads your codebase,
+            suggests edits across files, runs terminal commands, and responds to
+            compile or test failures — all in a loop until the job is done.
+            Further refine agent mode to fit your team's workflows with VS Code
+            extensions and Model Context Protocol (MCP) servers.
+          </p>
+          <br />
+          <p class="text-blue-400 underline hover:text-white">
+            Build with agent mode
+          </p>
+        </div>
+        <br />
+        <div
+          class="bg-linear-to-t from-sky-500 to-indigo-500 max-w-2xl mx-auto rounded-md"
+        >
+          <img src="cut6.png" class="p-5" />
+        </div>
+      </div>
+      <br />
+      <div class="md:flex">
+        <div class="ml-8 md:w-120">
+          <h1 class="text-white text-4xl font-semibold">
+            Next edit suggestions
+          </h1>
+          <br />
+          <p class="text-white">
+            VS Code predicts your next move as you code. Use the Tab key to
+            accept AI-powered suggestions right in your editor. It intelligently
+            recommends what to change — and where — based on the edits you're
+            already making.
+          </p>
+          <br />
+          <p class="text-blue-400 underline hover:text-white">
+            Code with AI-powered suggestions
+          </p>
+        </div>
+        <br />
+        <div
+          class="bg-linear-to-t from-sky-500 to-indigo-500 max-w-2xl mx-auto rounded-md"
+        >
+          <img src="cut6.png" class="p-5" />
+        </div>
+      </div>
+      <!-- icons -->
+      <br />
+      <br />
+      <div class="md:flex justify-around">
+        <!-- Left -->
+        <div class="w-80 mt-11">
+          <h1 class="ml-5 text-4xl text-white font-semibold">
+            Code with extensions
+          </h1>
+          <br />
+          <p class="text-white ml-5">
+            Customize VS Code with AI-powered functionality from extensions and
+            Model Context Protocol servers to use in Chat. Or,
+            <span class="text-blue-400 underline"
+              >build your own extension</span
+            >
+            to power your team's unique scenarios.
+          </p>
+        </div>
+        <!-- Right -->
+        <div class="grid grid-cols-3 gap-4 mt-12">
+          <!-- python -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md md:outline-1 mx-auto"
+              >
+                <div>
+                  <img
+                    src="python.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white">
+                  <p class="font-medium">Python</p>
+                  <p class="text-sm">Adds rich language support for Python.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- stripe -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md md:outline-1 mx-auto"
+              >
+                <div>
+                  <img
+                    src="stripe.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white">
+                  <p class="font-medium">Stripe</p>
+                  <p class="text-sm">
+                    Build,test and use Stripe inside your editor
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- c/c++ -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 md:w-44 flex p-2 gap-3 rounded-md md:outline-1 mx-auto"
+              >
+                <div>
+                  <img
+                    src="c/c.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white">
+                  <p class="font-medium">C/C++</p>
+
+                  <p class="text-sm">Adds rich language support for c/c++</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- jupyter -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md md:outline-1 mx-auto"
+              >
+                <div>
+                  <img
+                    src="jupyter.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white">
+                  <p class="font-medium">Jupyter</p>
+                  <p class="text-sm">Language supports for jupyter notebooks</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- gitlens -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md md:outline-1 mx-auto"
+              >
+                <div>
+                  <img
+                    src="extension-gitlens.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white">
+                  <p class="font-medium">Gitlens</p>
+                  <p class="text-sm">Supecharge your Git experience</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- c# -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 md:w-44 flex p-2 gap-3 rounded-md md:outline-1 mx-auto"
+              >
+                <div>
+                  <img
+                    src="chash.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white">
+                  <p class="font-medium">C# Dev kit</p>
+                  <p class="text-sm">Powerful tools for your c# environment</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md md:outline-1 mx-auto"
+              >
+                <div>
+                  <img
+                    src="mongodb.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white">
+                  <p class="font-medium">MongoDB</p>
+                  <p class="text-sm">Extenson for the @MongoDB agent</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- azure -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md md:outline-1 mx-auto"
+              >
+                <div>
+                  <img
+                    src="extension-azure.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white">
+                  <p class="font-medium">Github copilot for Azure</p>
+                  <p class="text-xs">
+                    Streamline the process of developing for Azure
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- remote -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 md:w-44 flex p-2 gap-3 rounded-md md:outline-1 mx-auto"
+              >
+                <div>
+                  <img
+                    src="extension-remote.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white">
+                  <p class="font-medium">Remote Development</p>
+
+                  <p class="text-xs">
+                    Open folders in a containers on a remote machine
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="md:ml-220 text-white md:mt-5 text-xs ml-10">
+        View 80k+ extensions in the
+        <span class="text-blue-400 underline">Extension Marketplace</span>
+      </h1>
+
+      <!-- languages -->
+
+      <div class="md:flex justify-around">
+        <!-- Left -->
+        <div class="w-80 mt-11">
+          <h1 class="ml-5 text-4xl text-white font-semibold">
+            Code in any language
+          </h1>
+          <br />
+          <p class="text-white ml-5">
+            VS Code supports almost every major programming language. Several
+            ship in the box, like JavaScript, TypeScript, CSS, and HTML, but
+            extensions for others can be found in the VS Code Marketplace.
+          </p>
+        </div>
+        <!-- Right -->
+        <div class="grid grid-cols-3 gap-4 mt-12">
+          <!-- javascript -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-js.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">JavaScript</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- typescript -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-ts.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">TypeScript</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- python -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 md:w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-python.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">Python</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- c## -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-cs.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">c#</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- c++-->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-cpp.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">c++</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- html -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 md:w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-html.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">HTML</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- java -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-java.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">JAVA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- json -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-json.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">JSON</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- php -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 md:w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-php.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">PHP</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- markdown -->
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 md:w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-markdown.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">Markdown</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- powershell -->
+
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 md:w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-powershell.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">Poweshell</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- yaml -->
+
+          <div class="w-full max-w-3xl">
+            <div class="w-full max-w-3xl">
+              <div
+                class="md:w-50 md:h-25 h-33 md:w-44 flex p-2 gap-3 rounded-md mx-auto"
+              >
+                <div>
+                  <img
+                    src="language-yaml.png"
+                    class="w-full max-w-[70px] md:mt-5 rounded-md"
+                  />
+                </div>
+
+                <div class="hidden md:block text-white mt-10">
+                  <p class="font-medium">YAML</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- page 4 -->
+
+      <div class="md:flex">
+        <div class="ml-8 md:w-120">
+          <h1 class="text-white text-4xl font-semibold">Fully customizable</h1>
+          <br />
+          <p class="text-white">
+            Customize your VS Code UI and layout so that it fits your coding
+            style. <br />
+
+            <span class="text-blue-400 underline">Color themes</span> let you
+            modify the colors in VS Code's user interface to suit your
+            preferences and work environment.
+
+            <span class="text-blue-400 underline">Settings Sync</span> enables
+            you to share your user settings across your VS Code instances with
+            the Settings Sync feature.
+
+            <span class="text-blue-400 underline">Profiles</span> let you create
+            sets of customizations and quickly switch between them or share them
+            with others.
+          </p>
+          <br />
+        </div>
+        <br />
+        <div>
+          <img src="cut10.png" class="p-5" />
+        </div>
+      </div>
+
+      <!-- page 5 -->
+
+      <div class="md:flex">
+        <div class="ml-8 md:w-120">
+          <h1 class="text-white text-4xl font-semibold">Code anywhere</h1>
+          <br />
+          <p class="text-white">
+            Code wherever you're most productive, whether you're connected to
+            the cloud, a remote repository, or in the browser with VS Code for
+            the Web (vscode.dev).
+
+            <span class="text-blue-400 underline">Built-in Source Control</span>
+            empowers you with Git support out-of-the-box. Many other source
+            control providers are available through extensions.
+
+            <span class="text-blue-400 underline"> GitHub Codespaces</span>
+            provides cloud-powered development environments for any activity -
+            whether it's a long-term project, or a short-term task like
+            reviewing a pull request.
+          </p>
+          <br />
+        </div>
+        <br />
+        <div>
+          <img src="swimlane-anywhere.png" class="md:w-280 p-5" />
+        </div>
+      </div>
+
+      <!-- last page -->
+
+      <!-- heading -->
+
+      <div class="w-80 mt-11 md:ml-150 text-center">
+        <h1 class="md:text-2xl text-white font-semibold">
+          Code with rich features
+        </h1>
+        <br />
+        <p class="text-white ml-5">
+          There's a lot more to an editor. Whether it's using built-in features
+          or rich extensions, there's something for everyone.
+        </p>
+      </div>
+
+      <!-- grid -->
+
+      <div class="grid md:grid-cols-4">
+        <!-- 1 -->
+        <div>
+          <div
+            class="border-1 bg-gradient-to-b from-[#0F172A] to-[#020617] max-w-xs m-2 p-4 rounded-lg"
+          >
+            <div><img src="codicon-terminal.svg" /></div>
+            <br />
+            <p class="text-white">Integrated terminal</p>
+            <br />
+            <p class="text-white">
+              use your favorite shell whether it's zsh,pwsh,or git basg,all
+              inside the editor.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div>
+          <div
+            class="border-1 bg-gradient-to-b from-[#0F172A] to-[#020617] max-w-xs m-2 p-4 rounded-lg"
+          >
+            <div><img src="codicon-debug.svg" /></div>
+            <br />
+            <p class="text-white">Run code</p>
+            <br />
+            <p class="text-white">
+              Run and debug your code without leaving your editor
+            </p>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div>
+          <div
+            class="border-1 bg-gradient-to-b from-[#0F172A] to-[#020617] max-w-xs m-2 p-4 rounded-lg"
+          >
+            <div><img src="codicon-version-control.svg" /></div>
+            <br />
+            <p class="text-white">Version control</p>
+            <br />
+            <p class="text-white">
+              Built-in support for git and many other source control providers.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div>
+          <div
+            class="border-1 bg-gradient-to-b from-[#0F172A] to-[#020617] max-w-xs m-2 p-4 rounded-lg"
+          >
+            <div><img src="codicon-build-tasks.svg" /></div>
+            <br />
+            <p class="text-white">Build tasks</p>
+            <br />
+            <p class="text-white">
+              Run tools and analyze their results from within VS Code
+            </p>
+          </div>
+        </div>
+
+        <!-- 5 -->
+
+        <div>
+          <div
+            class="border-1 bg-gradient-to-b from-[#0F172A] to-[#020617] max-w-xs m-2 p-4 rounded-lg"
+          >
+            <div><img src="codicon-local-history.svg" /></div>
+            <br />
+            <p class="text-white">Local history</p>
+            <br />
+            <p class="text-white">
+              Never lose your chances with automatically tracked local history.
+            </p>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div>
+          <div
+            class="border-1 bg-gradient-to-b from-[#0F172A] to-[#020617] max-w-xs m-2 p-4 rounded-lg"
+          >
+            <div><img src="codicon-themes.svg" /></div>
+            <br />
+            <p class="text-white">Themes</p>
+            <br />
+            <p class="text-white">
+              your theme is ans extension of your personality.add some flair
+            </p>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div>
+          <div
+            class="border-1 bg-gradient-to-b from-[#0F172A] to-[#020617] max-w-xs m-2 p-4 rounded-lg"
+          >
+            <div><img src="codicon-accessibility.svg" /></div>
+            <br />
+            <p class="text-white">Accessibility</p>
+            <br />
+            <p class="text-white">
+              Optimized experience for screen readers,high contrast themes,and
+              keyboard-only navigation
+            </p>
+          </div>
+        </div>
+
+        <!-- 8 -->
+
+        <div>
+          <div
+            class="border-1 bg-gradient-to-b from-[#0F172A] to-[#020617] max-w-xs m-2 p-4 rounded-lg"
+          >
+            <div><img src="codicon-web.svg" /></div>
+            <br />
+            <p class="text-white">Web support</p>
+            <br />
+            <p class="text-white">
+              Whether you are on your phone,tablet.or dessktop,you can access
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+
+      <div class="flex ml-3 gap-2 md:gap-10 md:ml-10">
+        <img src="github-icon.svg" />
+        <img src="x-icon.svg" class="w-5" />
+        <img src="linkedin-icon.svg" />
+        <img src="bluesky-icon.svg" />
+        <img src="reddit-icon.svg" />
+        <img src="podcast-icon.svg" />
+        <img src="tiktok-icon.svg" />
+        <img src="youtube-icon.svg" />
+      </div>
+
+      <div class="md:ml-360 mt-5 ml-5"><img src="microsoft.svg" /></div>
+
+      <div></div>
+      <div class="text-white flex gap-5 ml-5">
+        <span>Support</span>
+        <span>Privacy</span>
+        <span>Terms of use</span>
+        <span>Licence</span>
+      </div>
+    </div>
+  </body>
+</html>
